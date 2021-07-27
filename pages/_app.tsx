@@ -10,7 +10,7 @@ const MyApp = ({ Component, pageProps }) => {
     notifyChangeLog();
   }, []);
   const notifyChangeLog = () =>
-    toast(`2021년 7월 12일 : 항공운항 & 정비융합전공 데이터가 추가되었습니다.`);
+    toast(`2021년 7월 27일 : 일부 교양 및 전공 데이터가 추가되었습니다.`);
 
   return (
     <div className="bg-blue-50">
