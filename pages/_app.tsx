@@ -10,7 +10,7 @@ const MyApp = ({ Component, pageProps }) => {
     notifyChangeLog();
   }, []);
   const notifyChangeLog = () =>
-    toast(`2021년 8월 3일 : 일부 교양 및 전공 데이터가 업데이트되었습니다.`);
+    toast(`2021년 8월 6일 : 일부 교양 및 전공 데이터가 업데이트되었습니다.`);
 
   return (
     <div className="bg-blue-50">
